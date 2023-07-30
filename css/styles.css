@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     background-color: cyan;
     text-align: center;
+    min-height: 100vh;
 }
 
 .title {
@@ -16,7 +17,13 @@ body {
     justify-content: center;
 }
 
-.container {
+.round-output {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.selections {
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -28,19 +35,23 @@ body {
     justify-content: center;
     margin-top: 40px;
     gap: 50px;
+    margin-bottom: auto;
 }
 
-img {
-    width: auto;
-    max-height: 300px;
+button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 60px;
+    transition: 100ms;
 }
 
-.one {
-    border: 1px solid rgb(252, 251, 251);
-    border-radius: 15px;
+button:hover {
+    transform: scale(1.5);
 }
 
-.imgp {
-    padding: 0;
-    margin: 0;
+.footer {
+    display: flex;
+    margin-top: auto;
 }
