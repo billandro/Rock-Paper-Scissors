@@ -81,7 +81,7 @@ cpuDiv.innerHTML = computerScore;
 playerDiv.innerHTML = playerScore;
 
 const roundOutput = document.querySelector(".round-output");
-
+roundOutput.setAttribute("style", "font-size: 25px;");
 function restartGame() {
     if (playerScore === 5 || computerScore === 5) {
         playerScore = 0;
