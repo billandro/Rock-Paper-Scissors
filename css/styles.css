@@ -3,6 +3,10 @@ body {
     flex-direction: column;
     text-align: center;
     min-height: 100vh;
+    max-width: 100%;
+    background-image: url('../img/photo-1603484477859-abe6a73f9366.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .title {
@@ -55,6 +59,8 @@ button:hover {
 
 .footer {
     display: flex;
-    margin-top: auto;
+    /*margin-top: auto;*/
+    margin-top: 2rem;
     font-size: 18px;
+    justify-content: center;
 }
